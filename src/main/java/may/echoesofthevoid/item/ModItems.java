@@ -21,9 +21,9 @@ public class ModItems {
         EchoesOfTheVoid.LOGGER.info("Registering Mod Items for " + EchoesOfTheVoid.MOD_ID);
 
         // TODO: Make a new item group for every item in the mod
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
-            entries.add(VOID_ECHOLET);
-            entries.add(VOID_ECHO);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(VOID_ECHOLET);
+            fabricItemGroupEntries.add(VOID_ECHO);
         });
     }
 }
