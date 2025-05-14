@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type" : "minecraft:model",
+    "model": "echoes-of-the-void:item/void_echo"
+  }
+}
