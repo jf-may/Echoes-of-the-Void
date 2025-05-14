@@ -8,8 +8,8 @@
 		"May"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/jf-may/Echoes-of-the-Void",
+		"sources": "https://github.com/jf-may/Echoes-of-the-Void"
 	},
 	"license": "MIT",
 	"icon": "assets/echoes-of-the-void/icon.png",
