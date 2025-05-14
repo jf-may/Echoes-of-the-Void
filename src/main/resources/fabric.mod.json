@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "echoes-of-the-void",
+	"version": "${version}",
+	"name": "Echoes of the Void",
+	"description": "Echoes of the Void begins after the Ender Dragon's fall, as haunting sounds lead you on a journey across dimensions to uncover ancient artifacts and forgotten trials sealed beyond the Void.",
+	"authors": [
+		"May"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/echoes-of-the-void/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"may.echoesofthevoid.EchoesOfTheVoid"
+		],
+		"fabric-datagen": [
+			"may.echoesofthevoid.EchoesOfTheVoidDataGenerator"
+		],
+		"client": [
+			"may.echoesofthevoid.EchoesOfTheVoidClient"
+		]
+	},
+	"mixins": [
+		"echoes-of-the-void.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
