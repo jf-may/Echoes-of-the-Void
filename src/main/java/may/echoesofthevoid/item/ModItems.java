@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item VOID_ECHOLET = registerItem("void_echolet", new Item(new Item.Settings()));
+    public static final Item VOID_ECHO = registerItem("void_echo", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(EchoesOfTheVoid.MOD_ID, name), item);
@@ -22,6 +23,7 @@ public class ModItems {
         // TODO: Make a new item group for every item in the mod
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(VOID_ECHOLET);
+            entries.add(VOID_ECHO);
         });
     }
 }
