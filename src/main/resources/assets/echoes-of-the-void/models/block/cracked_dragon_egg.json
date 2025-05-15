@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "echoes-of-the-void:block/cracked_dragon_egg"
+  }
+}

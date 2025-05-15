@@ -1,5 +1,6 @@
 package may.echoesofthevoid;
 
+import may.echoesofthevoid.block.ModBlocks;
 import may.echoesofthevoid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class EchoesOfTheVoid implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
